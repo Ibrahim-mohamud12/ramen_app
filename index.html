@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramen Rating App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Ramen Rating App</h1>
+    
+    <div id="ramen-menu"></div>
+
+    <div id="ramen-detail">
+        <img id="detail-image" src="https://moringa.instructure.com/courses/967/files/517799/preview" alt="Ramen Image">
+        <h2 id="ramen-name">Select a Ramen</h2>
+        <h3 id="restaurant-name"></h3>
+        <p><strong>Rating:</strong> <span id="ramen-rating">N/A</span></p>
+        <p><strong>Comment:</strong> <span id="ramen-comment">N/A</span></p>
+    </div>
+
+    <form id="new-ramen">
+        <h2>Add New Ramen</h2>
+        <input type="text" id="name" placeholder="Ramen Name" required>
+        <input type="text" id="restaurant" placeholder="Restaurant" required>
+        <input type="text" id="image" placeholder="Image URL" required>
+        <input type="number" id="rating" placeholder="Rating (1-5)" min="1" max="5">
+        <textarea id="comment" placeholder="Comment"></textarea>
+        <button type="submit">Add Ramen</button>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>

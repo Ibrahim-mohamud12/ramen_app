@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+#ramen-menu {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#ramen-menu img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+#ramen-menu img:hover {
+    transform: scale(1.1);
+}
+
+#ramen-detail img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+form {
+    background-color: white;
+    padding: 10px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea, form button {
+    width: 90%;
+    margin: 5px 0;
+    padding: 5px;
+}
